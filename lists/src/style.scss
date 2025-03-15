@@ -1,3 +1,36 @@
-.name-root {
-    font-size: 45px;
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.users {
+    list-style: none;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.user__name, .user__age {
+    font-size: 20px;
+}
+
+.user__age {
+    color: red;
+}
+
+.sort-btn {
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: yellow;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
 }
